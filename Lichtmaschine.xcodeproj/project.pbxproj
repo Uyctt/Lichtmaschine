@@ -108,12 +108,115 @@
 		8274B6651AC21002005BDA0B /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TemplateIcon.icns; path = Utilities/TemplateIcon.icns; sourceTree = "<group>"; };
 		8274B6661AC21002005BDA0B /* uploader_izmir.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = uploader_izmir.sh; path = Utilities/uploader_izmir.sh; sourceTree = "<group>"; };
 		8274B6671AC21002005BDA0B /* Lichtmaschine.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Lichtmaschine.ino; sourceTree = "<group>"; };
+		8274B6801AC211B6005BDA0B /* digital_write_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digital_write_macros.h; sourceTree = "<group>"; };
+		8274B6811AC211B6005BDA0B /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		8274B6821AC211B6005BDA0B /* readMe for digitalWrite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "readMe for digitalWrite.pdf"; sourceTree = "<group>"; };
+		8274B6831AC211B6005BDA0B /* wiring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wiring.h; sourceTree = "<group>"; };
+		8274B6841AC211B6005BDA0B /* wiring_digital.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wiring_digital.c; sourceTree = "<group>"; };
+		8274B6851AC211B6005BDA0B /* digitalWriteFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digitalWriteFast.h; sourceTree = "<group>"; };
+		8274B6861AC211B6005BDA0B /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		8274B6871AC211B6005BDA0B /* Readme.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Readme.pdf; sourceTree = "<group>"; };
+		8274B6891AC211B6005BDA0B /* block_clockless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_clockless.h; sourceTree = "<group>"; };
+		8274B68A1AC211B6005BDA0B /* chipsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipsets.h; sourceTree = "<group>"; };
+		8274B68B1AC211B6005BDA0B /* clockless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clockless.h; sourceTree = "<group>"; };
+		8274B68C1AC211B6005BDA0B /* clockless2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clockless2.h; sourceTree = "<group>"; };
+		8274B68D1AC211B6005BDA0B /* clockless_arm_k20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clockless_arm_k20.h; sourceTree = "<group>"; };
+		8274B68E1AC211B6005BDA0B /* clockless_arm_sam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clockless_arm_sam.h; sourceTree = "<group>"; };
+		8274B68F1AC211B6005BDA0B /* clockless_trinket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clockless_trinket.h; sourceTree = "<group>"; };
+		8274B6901AC211B6005BDA0B /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		8274B6911AC211B6005BDA0B /* colorpalettes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorpalettes.cpp; sourceTree = "<group>"; };
+		8274B6921AC211B6005BDA0B /* colorpalettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorpalettes.h; sourceTree = "<group>"; };
+		8274B6931AC211B6005BDA0B /* colorutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = colorutils.cpp; sourceTree = "<group>"; };
+		8274B6941AC211B6005BDA0B /* colorutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorutils.h; sourceTree = "<group>"; };
+		8274B6951AC211B6005BDA0B /* controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		8274B6961AC211B6005BDA0B /* delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delay.h; sourceTree = "<group>"; };
+		8274B6971AC211B6005BDA0B /* dmx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dmx.h; sourceTree = "<group>"; };
+		8274B69A1AC211B6005BDA0B /* AnalogOutput.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnalogOutput.ino; sourceTree = "<group>"; };
+		8274B69C1AC211B6005BDA0B /* Blink.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blink.ino; sourceTree = "<group>"; };
+		8274B69E1AC211B6005BDA0B /* ColorPalette.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ColorPalette.ino; sourceTree = "<group>"; };
+		8274B6A01AC211B6005BDA0B /* ColorTemperature.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ColorTemperature.ino; sourceTree = "<group>"; };
+		8274B6A21AC211B6005BDA0B /* Cylon.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cylon.ino; sourceTree = "<group>"; };
+		8274B6A41AC211B6005BDA0B /* Fire2012.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fire2012.ino; sourceTree = "<group>"; };
+		8274B6A61AC211B6005BDA0B /* Fire2012WithPalette.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fire2012WithPalette.ino; sourceTree = "<group>"; };
+		8274B6A81AC211B6005BDA0B /* FirstLight.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirstLight.ino; sourceTree = "<group>"; };
+		8274B6AB1AC211B6005BDA0B /* ArrayOfLedArrays.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArrayOfLedArrays.ino; sourceTree = "<group>"; };
+		8274B6AD1AC211B6005BDA0B /* MirroringSample.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MirroringSample.ino; sourceTree = "<group>"; };
+		8274B6AF1AC211B6005BDA0B /* MultiArrays.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MultiArrays.ino; sourceTree = "<group>"; };
+		8274B6B11AC211B6005BDA0B /* MultipleStripsInOneArray.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MultipleStripsInOneArray.ino; sourceTree = "<group>"; };
+		8274B6B31AC211B6005BDA0B /* Noise.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Noise.ino; sourceTree = "<group>"; };
+		8274B6B51AC211B7005BDA0B /* NoisePlayground.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NoisePlayground.ino; sourceTree = "<group>"; };
+		8274B6B71AC211B7005BDA0B /* NoisePlusPalette.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NoisePlusPalette.ino; sourceTree = "<group>"; };
+		8274B6B91AC211B7005BDA0B /* Pintest.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pintest.ino; sourceTree = "<group>"; };
+		8274B6BB1AC211B7005BDA0B /* RGBCalibrate.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RGBCalibrate.ino; sourceTree = "<group>"; };
+		8274B6BD1AC211B7005BDA0B /* SmartMatrix.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SmartMatrix.ino; sourceTree = "<group>"; };
+		8274B6BF1AC211B7005BDA0B /* XYMatrix.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYMatrix.ino; sourceTree = "<group>"; };
+		8274B6C01AC211B7005BDA0B /* FastLED.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FastLED.cpp; sourceTree = "<group>"; };
+		8274B6C11AC211B7005BDA0B /* FastLED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastLED.h; sourceTree = "<group>"; };
+		8274B6C21AC211B7005BDA0B /* fastpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastpin.h; sourceTree = "<group>"; };
+		8274B6C31AC211B7005BDA0B /* fastpin_arm_k20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastpin_arm_k20.h; sourceTree = "<group>"; };
+		8274B6C41AC211B7005BDA0B /* fastpin_arm_sam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastpin_arm_sam.h; sourceTree = "<group>"; };
+		8274B6C51AC211B7005BDA0B /* fastpin_avr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastpin_avr.h; sourceTree = "<group>"; };
+		8274B6C61AC211B7005BDA0B /* fastspi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi.h; sourceTree = "<group>"; };
+		8274B6C71AC211B7005BDA0B /* fastspi_arm_k20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_arm_k20.h; sourceTree = "<group>"; };
+		8274B6C81AC211B7005BDA0B /* fastspi_arm_sam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_arm_sam.h; sourceTree = "<group>"; };
+		8274B6C91AC211B7005BDA0B /* fastspi_avr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_avr.h; sourceTree = "<group>"; };
+		8274B6CA1AC211B7005BDA0B /* fastspi_bitbang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_bitbang.h; sourceTree = "<group>"; };
+		8274B6CB1AC211B7005BDA0B /* fastspi_dma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_dma.h; sourceTree = "<group>"; };
+		8274B6CC1AC211B7005BDA0B /* FastSPI_LED2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastSPI_LED2.h; sourceTree = "<group>"; };
+		8274B6CD1AC211B7005BDA0B /* fastspi_nop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_nop.h; sourceTree = "<group>"; };
+		8274B6CE1AC211B7005BDA0B /* fastspi_ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastspi_ref.h; sourceTree = "<group>"; };
+		8274B6CF1AC211B7005BDA0B /* hsv2rgb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hsv2rgb.cpp; sourceTree = "<group>"; };
+		8274B6D01AC211B7005BDA0B /* hsv2rgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hsv2rgb.h; sourceTree = "<group>"; };
+		8274B6D11AC211B7005BDA0B /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		8274B6D21AC211B7005BDA0B /* led_sysdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = led_sysdefs.h; sourceTree = "<group>"; };
+		8274B6D31AC211B7005BDA0B /* lib8tion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lib8tion.cpp; sourceTree = "<group>"; };
+		8274B6D41AC211B7005BDA0B /* lib8tion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib8tion.h; sourceTree = "<group>"; };
+		8274B6D51AC211B7005BDA0B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8274B6D61AC211B7005BDA0B /* noise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noise.cpp; sourceTree = "<group>"; };
+		8274B6D71AC211B7005BDA0B /* noise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noise.h; sourceTree = "<group>"; };
+		8274B6D81AC211B7005BDA0B /* pixeltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixeltypes.h; sourceTree = "<group>"; };
+		8274B6D91AC211B7005BDA0B /* power_mgt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = power_mgt.cpp; sourceTree = "<group>"; };
+		8274B6DA1AC211B7005BDA0B /* power_mgt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = power_mgt.h; sourceTree = "<group>"; };
+		8274B6DB1AC211B7005BDA0B /* preview_changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = preview_changes.txt; sourceTree = "<group>"; };
+		8274B6DC1AC211B7005BDA0B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8274B6DD1AC211B7005BDA0B /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = release_notes.md; sourceTree = "<group>"; };
+		8274B6DE1AC211B7005BDA0B /* smartmatrix_t3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartmatrix_t3.h; sourceTree = "<group>"; };
+		8274B6E01AC211B7005BDA0B /* BLIP_LEDS_SPI_LPD6803.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BLIP_LEDS_SPI_LPD6803.cpp; sourceTree = "<group>"; };
+		8274B6E11AC211B7005BDA0B /* BLIP_LEDS_SPI_LPD6803.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLIP_LEDS_SPI_LPD6803.h; sourceTree = "<group>"; };
+		8274B6E21AC211B7005BDA0B /* digitalWriteFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = digitalWriteFast.h; sourceTree = "<group>"; };
+		8274B6E51AC211B7005BDA0B /* strandtest.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strandtest.pde; sourceTree = "<group>"; };
+		8274B6E61AC211B7005BDA0B /* LPD6803.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LPD6803.cpp; sourceTree = "<group>"; };
+		8274B6E71AC211B7005BDA0B /* LPD6803.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPD6803.h; sourceTree = "<group>"; };
+		8274B6E91AC211B7005BDA0B /* execution_globale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = execution_globale.png; sourceTree = "<group>"; };
+		8274B6EA1AC211B7005BDA0B /* transmission_octets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transmission_octets.png; sourceTree = "<group>"; };
+		8274B6EB1AC211B7005BDA0B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8274B6EC1AC211B7005BDA0B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.txt; path = ../../Documents/Arduino/libraries/readme.txt; sourceTree = "<group>"; };
+		8274B6EF1AC211B7005BDA0B /* known_16bit_timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = known_16bit_timers.h; sourceTree = "<group>"; };
+		8274B6F21AC211B7005BDA0B /* FanSpeed.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FanSpeed.pde; sourceTree = "<group>"; };
+		8274B6F41AC211B7005BDA0B /* Interrupt.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Interrupt.pde; sourceTree = "<group>"; };
+		8274B6F51AC211B7005BDA0B /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		8274B6F61AC211B7005BDA0B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8274B6F71AC211B7005BDA0B /* TimerOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimerOne.cpp; sourceTree = "<group>"; };
+		8274B6F81AC211B7005BDA0B /* TimerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerOne.h; sourceTree = "<group>"; };
+		8274B6FB1AC211B7005BDA0B /* known_16bit_timers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = known_16bit_timers.h; sourceTree = "<group>"; };
+		8274B6FE1AC211B7005BDA0B /* FanSpeed.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FanSpeed.pde; sourceTree = "<group>"; };
+		8274B7001AC211B7005BDA0B /* Interrupt.pde */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Interrupt.pde; sourceTree = "<group>"; };
+		8274B7011AC211B7005BDA0B /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		8274B7021AC211B7005BDA0B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8274B7031AC211B7005BDA0B /* TimerThree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimerThree.cpp; sourceTree = "<group>"; };
+		8274B7041AC211B7005BDA0B /* TimerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerThree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		8274B5F31AC21002005BDA0B = {
 			isa = PBXGroup;
 			children = (
+				8274B67D1AC211B6005BDA0B /* digitalWriteFast */,
+				8274B6881AC211B6005BDA0B /* FastLED303 */,
+				8274B6DF1AC211B7005BDA0B /* LPD6803 */,
+				8274B6EC1AC211B7005BDA0B /* readme.txt */,
+				8274B6ED1AC211B7005BDA0B /* TimerOne */,
+				8274B6F91AC211B7005BDA0B /* TimerThree */,
 				8274B6011AC21002005BDA0B /* Lichtmaschine */,
 				8274B6001AC21002005BDA0B /* Products */,
 			);
@@ -130,11 +233,9 @@
 		8274B6011AC21002005BDA0B /* Lichtmaschine */ = {
 			isa = PBXGroup;
 			children = (
-				8274B6021AC21002005BDA0B /* main.cpp */,
+				8274B67C1AC2110C005BDA0B /* Src */,
 				8274B6041AC21002005BDA0B /* Makefile */,
 				8274B6061AC21002005BDA0B /* ReadMe.txt */,
-				8274B6071AC21002005BDA0B /* LocalLibrary.cpp */,
-				8274B6091AC21002005BDA0B /* LocalLibrary.h */,
 				8274B6671AC21002005BDA0B /* Lichtmaschine.ino */,
 				8274B60A1AC21002005BDA0B /* Sketchbook */,
 				8274B60C1AC21002005BDA0B /* Configurations */,
@@ -266,6 +367,424 @@
 				8274B6661AC21002005BDA0B /* uploader_izmir.sh */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8274B67C1AC2110C005BDA0B /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6021AC21002005BDA0B /* main.cpp */,
+				8274B6071AC21002005BDA0B /* LocalLibrary.cpp */,
+				8274B6091AC21002005BDA0B /* LocalLibrary.h */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		8274B67D1AC211B6005BDA0B /* digitalWriteFast */ = {
+			isa = PBXGroup;
+			children = (
+				8274B67E1AC211B6005BDA0B /* bonus */,
+				8274B6851AC211B6005BDA0B /* digitalWriteFast.h */,
+				8274B6861AC211B6005BDA0B /* keywords.txt */,
+				8274B6871AC211B6005BDA0B /* Readme.pdf */,
+			);
+			name = digitalWriteFast;
+			path = ../../Documents/Arduino/libraries/digitalWriteFast;
+			sourceTree = "<group>";
+		};
+		8274B67E1AC211B6005BDA0B /* bonus */ = {
+			isa = PBXGroup;
+			children = (
+				8274B67F1AC211B6005BDA0B /* digitalWrite */,
+			);
+			path = bonus;
+			sourceTree = "<group>";
+		};
+		8274B67F1AC211B6005BDA0B /* digitalWrite */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6801AC211B6005BDA0B /* digital_write_macros.h */,
+				8274B6811AC211B6005BDA0B /* keywords.txt */,
+				8274B6821AC211B6005BDA0B /* readMe for digitalWrite.pdf */,
+				8274B6831AC211B6005BDA0B /* wiring.h */,
+				8274B6841AC211B6005BDA0B /* wiring_digital.c */,
+			);
+			path = digitalWrite;
+			sourceTree = "<group>";
+		};
+		8274B6881AC211B6005BDA0B /* FastLED303 */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6891AC211B6005BDA0B /* block_clockless.h */,
+				8274B68A1AC211B6005BDA0B /* chipsets.h */,
+				8274B68B1AC211B6005BDA0B /* clockless.h */,
+				8274B68C1AC211B6005BDA0B /* clockless2.h */,
+				8274B68D1AC211B6005BDA0B /* clockless_arm_k20.h */,
+				8274B68E1AC211B6005BDA0B /* clockless_arm_sam.h */,
+				8274B68F1AC211B6005BDA0B /* clockless_trinket.h */,
+				8274B6901AC211B6005BDA0B /* color.h */,
+				8274B6911AC211B6005BDA0B /* colorpalettes.cpp */,
+				8274B6921AC211B6005BDA0B /* colorpalettes.h */,
+				8274B6931AC211B6005BDA0B /* colorutils.cpp */,
+				8274B6941AC211B6005BDA0B /* colorutils.h */,
+				8274B6951AC211B6005BDA0B /* controller.h */,
+				8274B6961AC211B6005BDA0B /* delay.h */,
+				8274B6971AC211B6005BDA0B /* dmx.h */,
+				8274B6981AC211B6005BDA0B /* examples */,
+				8274B6C01AC211B7005BDA0B /* FastLED.cpp */,
+				8274B6C11AC211B7005BDA0B /* FastLED.h */,
+				8274B6C21AC211B7005BDA0B /* fastpin.h */,
+				8274B6C31AC211B7005BDA0B /* fastpin_arm_k20.h */,
+				8274B6C41AC211B7005BDA0B /* fastpin_arm_sam.h */,
+				8274B6C51AC211B7005BDA0B /* fastpin_avr.h */,
+				8274B6C61AC211B7005BDA0B /* fastspi.h */,
+				8274B6C71AC211B7005BDA0B /* fastspi_arm_k20.h */,
+				8274B6C81AC211B7005BDA0B /* fastspi_arm_sam.h */,
+				8274B6C91AC211B7005BDA0B /* fastspi_avr.h */,
+				8274B6CA1AC211B7005BDA0B /* fastspi_bitbang.h */,
+				8274B6CB1AC211B7005BDA0B /* fastspi_dma.h */,
+				8274B6CC1AC211B7005BDA0B /* FastSPI_LED2.h */,
+				8274B6CD1AC211B7005BDA0B /* fastspi_nop.h */,
+				8274B6CE1AC211B7005BDA0B /* fastspi_ref.h */,
+				8274B6CF1AC211B7005BDA0B /* hsv2rgb.cpp */,
+				8274B6D01AC211B7005BDA0B /* hsv2rgb.h */,
+				8274B6D11AC211B7005BDA0B /* keywords.txt */,
+				8274B6D21AC211B7005BDA0B /* led_sysdefs.h */,
+				8274B6D31AC211B7005BDA0B /* lib8tion.cpp */,
+				8274B6D41AC211B7005BDA0B /* lib8tion.h */,
+				8274B6D51AC211B7005BDA0B /* LICENSE */,
+				8274B6D61AC211B7005BDA0B /* noise.cpp */,
+				8274B6D71AC211B7005BDA0B /* noise.h */,
+				8274B6D81AC211B7005BDA0B /* pixeltypes.h */,
+				8274B6D91AC211B7005BDA0B /* power_mgt.cpp */,
+				8274B6DA1AC211B7005BDA0B /* power_mgt.h */,
+				8274B6DB1AC211B7005BDA0B /* preview_changes.txt */,
+				8274B6DC1AC211B7005BDA0B /* README.md */,
+				8274B6DD1AC211B7005BDA0B /* release_notes.md */,
+				8274B6DE1AC211B7005BDA0B /* smartmatrix_t3.h */,
+			);
+			name = FastLED303;
+			path = ../../Documents/Arduino/libraries/FastLED303;
+			sourceTree = "<group>";
+		};
+		8274B6981AC211B6005BDA0B /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6991AC211B6005BDA0B /* AnalogOutput */,
+				8274B69B1AC211B6005BDA0B /* Blink */,
+				8274B69D1AC211B6005BDA0B /* ColorPalette */,
+				8274B69F1AC211B6005BDA0B /* ColorTemperature */,
+				8274B6A11AC211B6005BDA0B /* Cylon */,
+				8274B6A31AC211B6005BDA0B /* Fire2012 */,
+				8274B6A51AC211B6005BDA0B /* Fire2012WithPalette */,
+				8274B6A71AC211B6005BDA0B /* FirstLight */,
+				8274B6A91AC211B6005BDA0B /* Multiple */,
+				8274B6B21AC211B6005BDA0B /* Noise */,
+				8274B6B41AC211B6005BDA0B /* NoisePlayground */,
+				8274B6B61AC211B7005BDA0B /* NoisePlusPalette */,
+				8274B6B81AC211B7005BDA0B /* Pintest */,
+				8274B6BA1AC211B7005BDA0B /* RGBCalibrate */,
+				8274B6BC1AC211B7005BDA0B /* SmartMatrix */,
+				8274B6BE1AC211B7005BDA0B /* XYMatrix */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		8274B6991AC211B6005BDA0B /* AnalogOutput */ = {
+			isa = PBXGroup;
+			children = (
+				8274B69A1AC211B6005BDA0B /* AnalogOutput.ino */,
+			);
+			path = AnalogOutput;
+			sourceTree = "<group>";
+		};
+		8274B69B1AC211B6005BDA0B /* Blink */ = {
+			isa = PBXGroup;
+			children = (
+				8274B69C1AC211B6005BDA0B /* Blink.ino */,
+			);
+			path = Blink;
+			sourceTree = "<group>";
+		};
+		8274B69D1AC211B6005BDA0B /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				8274B69E1AC211B6005BDA0B /* ColorPalette.ino */,
+			);
+			path = ColorPalette;
+			sourceTree = "<group>";
+		};
+		8274B69F1AC211B6005BDA0B /* ColorTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6A01AC211B6005BDA0B /* ColorTemperature.ino */,
+			);
+			path = ColorTemperature;
+			sourceTree = "<group>";
+		};
+		8274B6A11AC211B6005BDA0B /* Cylon */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6A21AC211B6005BDA0B /* Cylon.ino */,
+			);
+			path = Cylon;
+			sourceTree = "<group>";
+		};
+		8274B6A31AC211B6005BDA0B /* Fire2012 */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6A41AC211B6005BDA0B /* Fire2012.ino */,
+			);
+			path = Fire2012;
+			sourceTree = "<group>";
+		};
+		8274B6A51AC211B6005BDA0B /* Fire2012WithPalette */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6A61AC211B6005BDA0B /* Fire2012WithPalette.ino */,
+			);
+			path = Fire2012WithPalette;
+			sourceTree = "<group>";
+		};
+		8274B6A71AC211B6005BDA0B /* FirstLight */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6A81AC211B6005BDA0B /* FirstLight.ino */,
+			);
+			path = FirstLight;
+			sourceTree = "<group>";
+		};
+		8274B6A91AC211B6005BDA0B /* Multiple */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6AA1AC211B6005BDA0B /* ArrayOfLedArrays */,
+				8274B6AC1AC211B6005BDA0B /* MirroringSample */,
+				8274B6AE1AC211B6005BDA0B /* MultiArrays */,
+				8274B6B01AC211B6005BDA0B /* MultipleStripsInOneArray */,
+			);
+			path = Multiple;
+			sourceTree = "<group>";
+		};
+		8274B6AA1AC211B6005BDA0B /* ArrayOfLedArrays */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6AB1AC211B6005BDA0B /* ArrayOfLedArrays.ino */,
+			);
+			path = ArrayOfLedArrays;
+			sourceTree = "<group>";
+		};
+		8274B6AC1AC211B6005BDA0B /* MirroringSample */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6AD1AC211B6005BDA0B /* MirroringSample.ino */,
+			);
+			path = MirroringSample;
+			sourceTree = "<group>";
+		};
+		8274B6AE1AC211B6005BDA0B /* MultiArrays */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6AF1AC211B6005BDA0B /* MultiArrays.ino */,
+			);
+			path = MultiArrays;
+			sourceTree = "<group>";
+		};
+		8274B6B01AC211B6005BDA0B /* MultipleStripsInOneArray */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6B11AC211B6005BDA0B /* MultipleStripsInOneArray.ino */,
+			);
+			path = MultipleStripsInOneArray;
+			sourceTree = "<group>";
+		};
+		8274B6B21AC211B6005BDA0B /* Noise */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6B31AC211B6005BDA0B /* Noise.ino */,
+			);
+			path = Noise;
+			sourceTree = "<group>";
+		};
+		8274B6B41AC211B6005BDA0B /* NoisePlayground */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6B51AC211B7005BDA0B /* NoisePlayground.ino */,
+			);
+			path = NoisePlayground;
+			sourceTree = "<group>";
+		};
+		8274B6B61AC211B7005BDA0B /* NoisePlusPalette */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6B71AC211B7005BDA0B /* NoisePlusPalette.ino */,
+			);
+			path = NoisePlusPalette;
+			sourceTree = "<group>";
+		};
+		8274B6B81AC211B7005BDA0B /* Pintest */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6B91AC211B7005BDA0B /* Pintest.ino */,
+			);
+			path = Pintest;
+			sourceTree = "<group>";
+		};
+		8274B6BA1AC211B7005BDA0B /* RGBCalibrate */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6BB1AC211B7005BDA0B /* RGBCalibrate.ino */,
+			);
+			path = RGBCalibrate;
+			sourceTree = "<group>";
+		};
+		8274B6BC1AC211B7005BDA0B /* SmartMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6BD1AC211B7005BDA0B /* SmartMatrix.ino */,
+			);
+			path = SmartMatrix;
+			sourceTree = "<group>";
+		};
+		8274B6BE1AC211B7005BDA0B /* XYMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6BF1AC211B7005BDA0B /* XYMatrix.ino */,
+			);
+			path = XYMatrix;
+			sourceTree = "<group>";
+		};
+		8274B6DF1AC211B7005BDA0B /* LPD6803 */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6E01AC211B7005BDA0B /* BLIP_LEDS_SPI_LPD6803.cpp */,
+				8274B6E11AC211B7005BDA0B /* BLIP_LEDS_SPI_LPD6803.h */,
+				8274B6E21AC211B7005BDA0B /* digitalWriteFast.h */,
+				8274B6E31AC211B7005BDA0B /* examples */,
+				8274B6E61AC211B7005BDA0B /* LPD6803.cpp */,
+				8274B6E71AC211B7005BDA0B /* LPD6803.h */,
+				8274B6E81AC211B7005BDA0B /* Quicker */,
+				8274B6EB1AC211B7005BDA0B /* README.md */,
+			);
+			name = LPD6803;
+			path = ../../Documents/Arduino/libraries/LPD6803;
+			sourceTree = "<group>";
+		};
+		8274B6E31AC211B7005BDA0B /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6E41AC211B7005BDA0B /* strandtest */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		8274B6E41AC211B7005BDA0B /* strandtest */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6E51AC211B7005BDA0B /* strandtest.pde */,
+			);
+			path = strandtest;
+			sourceTree = "<group>";
+		};
+		8274B6E81AC211B7005BDA0B /* Quicker */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6E91AC211B7005BDA0B /* execution_globale.png */,
+				8274B6EA1AC211B7005BDA0B /* transmission_octets.png */,
+			);
+			path = Quicker;
+			sourceTree = "<group>";
+		};
+		8274B6ED1AC211B7005BDA0B /* TimerOne */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6EE1AC211B7005BDA0B /* config */,
+				8274B6F01AC211B7005BDA0B /* examples */,
+				8274B6F51AC211B7005BDA0B /* keywords.txt */,
+				8274B6F61AC211B7005BDA0B /* README.md */,
+				8274B6F71AC211B7005BDA0B /* TimerOne.cpp */,
+				8274B6F81AC211B7005BDA0B /* TimerOne.h */,
+			);
+			name = TimerOne;
+			path = ../../Documents/Arduino/libraries/TimerOne;
+			sourceTree = "<group>";
+		};
+		8274B6EE1AC211B7005BDA0B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6EF1AC211B7005BDA0B /* known_16bit_timers.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		8274B6F01AC211B7005BDA0B /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6F11AC211B7005BDA0B /* FanSpeed */,
+				8274B6F31AC211B7005BDA0B /* Interrupt */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		8274B6F11AC211B7005BDA0B /* FanSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6F21AC211B7005BDA0B /* FanSpeed.pde */,
+			);
+			path = FanSpeed;
+			sourceTree = "<group>";
+		};
+		8274B6F31AC211B7005BDA0B /* Interrupt */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6F41AC211B7005BDA0B /* Interrupt.pde */,
+			);
+			path = Interrupt;
+			sourceTree = "<group>";
+		};
+		8274B6F91AC211B7005BDA0B /* TimerThree */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6FA1AC211B7005BDA0B /* config */,
+				8274B6FC1AC211B7005BDA0B /* examples */,
+				8274B7011AC211B7005BDA0B /* keywords.txt */,
+				8274B7021AC211B7005BDA0B /* README.md */,
+				8274B7031AC211B7005BDA0B /* TimerThree.cpp */,
+				8274B7041AC211B7005BDA0B /* TimerThree.h */,
+			);
+			name = TimerThree;
+			path = ../../Documents/Arduino/libraries/TimerThree;
+			sourceTree = "<group>";
+		};
+		8274B6FA1AC211B7005BDA0B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6FB1AC211B7005BDA0B /* known_16bit_timers.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		8274B6FC1AC211B7005BDA0B /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6FD1AC211B7005BDA0B /* FanSpeed */,
+				8274B6FF1AC211B7005BDA0B /* Interrupt */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		8274B6FD1AC211B7005BDA0B /* FanSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				8274B6FE1AC211B7005BDA0B /* FanSpeed.pde */,
+			);
+			path = FanSpeed;
+			sourceTree = "<group>";
+		};
+		8274B6FF1AC211B7005BDA0B /* Interrupt */ = {
+			isa = PBXGroup;
+			children = (
+				8274B7001AC211B7005BDA0B /* Interrupt.pde */,
+			);
+			path = Interrupt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
